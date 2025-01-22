@@ -14,3 +14,11 @@ b{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
 }
+
+@media (max-width:480px) {
+    img{
+        width: 90%;
+        object-fit: cover;
+        height: 300px;
+    }
+}
